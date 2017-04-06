@@ -34,7 +34,7 @@
               <?php } ?>
             </div>
           </div>
-          <div class="form-group">
+       <!--   <div class="form-group">
             <label class="col-sm-2 control-label" for="input-limit"><?php echo $entry_limit; ?></label>
             <div class="col-sm-10">
               <input type="text" name="limit" value="<?php echo $limit; ?>" placeholder="<?php echo $entry_limit; ?>" id="input-limit" class="form-control" />
@@ -57,7 +57,7 @@
               <div class="text-danger"><?php echo $error_height; ?></div>
               <?php } ?>
             </div>
-          </div>
+          </div>-->
           <div class="form-group">
             <label class="col-sm-2 control-label" for="input-status"><?php echo $entry_status; ?></label>
             <div class="col-sm-10">
