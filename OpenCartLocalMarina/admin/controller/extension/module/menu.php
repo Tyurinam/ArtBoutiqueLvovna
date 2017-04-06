@@ -30,9 +30,9 @@ class ControllerExtensionModuleMenu extends Controller {
 		$data['text_disabled'] = $this->language->get('text_disabled');
 
 		$data['entry_name'] = $this->language->get('entry_name');
-		$data['entry_limit'] = $this->language->get('entry_limit');
+		/*$data['entry_limit'] = $this->language->get('entry_limit');
 		$data['entry_width'] = $this->language->get('entry_width');
-		$data['entry_height'] = $this->language->get('entry_height');
+		$data['entry_height'] = $this->language->get('entry_height');*/
 		$data['entry_status'] = $this->language->get('entry_status');
 
 		$data['button_save'] = $this->language->get('button_save');
@@ -50,7 +50,7 @@ class ControllerExtensionModuleMenu extends Controller {
 			$data['error_name'] = '';
 		}
 
-		if (isset($this->error['width'])) {
+		/*if (isset($this->error['width'])) {
 			$data['error_width'] = $this->error['width'];
 		} else {
 			$data['error_width'] = '';
@@ -60,7 +60,7 @@ class ControllerExtensionModuleMenu extends Controller {
 			$data['error_height'] = $this->error['height'];
 		} else {
 			$data['error_height'] = '';
-		}
+		}*/
 
 		$data['breadcrumbs'] = array();
 
@@ -106,7 +106,7 @@ class ControllerExtensionModuleMenu extends Controller {
 			$data['name'] = '';
 		}
 
-		if (isset($this->request->post['limit'])) {
+		/*if (isset($this->request->post['limit'])) {
 			$data['limit'] = $this->request->post['limit'];
 		} elseif (!empty($module_info)) {
 			$data['limit'] = $module_info['limit'];
@@ -128,7 +128,7 @@ class ControllerExtensionModuleMenu extends Controller {
 			$data['height'] = $module_info['height'];
 		} else {
 			$data['height'] = 200;
-		}
+		}*/
 
 		if (isset($this->request->post['status'])) {
 			$data['status'] = $this->request->post['status'];
@@ -154,13 +154,13 @@ class ControllerExtensionModuleMenu extends Controller {
 			$this->error['name'] = $this->language->get('error_name');
 		}
 
-		if (!$this->request->post['width']) {
+		/*if (!$this->request->post['width']) {
 			$this->error['width'] = $this->language->get('error_width');
 		}
 
 		if (!$this->request->post['height']) {
 			$this->error['height'] = $this->language->get('error_height');
-		}
+		}*/
 
 		return !$this->error;
 	}
