@@ -5,7 +5,7 @@ class ControllerExtensionModuleExposition extends Controller {
 
     */
 	public function index($setting) {
-		$this->load->language('extension/module/trois_artistes');
+		$this->load->language('extension/module/exposition');
 
 		$data['heading_title'] = $this->language->get('heading_title');
 
@@ -27,7 +27,7 @@ class ControllerExtensionModuleExposition extends Controller {
 			'start' => 0,
 			'limit' => $setting['limit']
 		);
-        /**/
+        /*
         
 if ((isset($this->request->get['route'])) AND ($this->request->get['route'] == 'product/category'))
         {
@@ -44,7 +44,7 @@ if ((isset($this->request->get['route'])) AND ($this->request->get['route'] == '
             $data['filter_manufacturer_id'] = $manufacturer_id;
            // $data['filter_manufacturer_id'] = $manufacturer_id;
         }
-      /*  */
+   */
 
 		$results = $this->model_catalog_product->getProducts($filter_data);
 
@@ -103,7 +103,7 @@ if ((isset($this->request->get['route'])) AND ($this->request->get['route'] == '
                     
 				);
 			}
-            //var_dump($data);
+           //var_dump($data);
 			return $this->load->view('extension/module/exposition', $data);
         
 		}
