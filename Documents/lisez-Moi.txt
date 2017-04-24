@@ -1,0 +1,31 @@
+Marina Tyurina
+Isabel Gallo
+Jesus Martinez 
+
+ProjetWeb2 : ArtBoutique Chez LVOVNA
+
+http://e1695162.webdev.cmaisonneuve.qc.ca/projetweb2/upload
+http://e1695162.webdev.cmaisonneuve.qc.ca/projetweb2/upload/admin
+
+Utilisateur Admin
+Login: admin
+Mot de Passe: admin
+
+Utilisateur Artiste
+Login Customer (Artiste) : jjmartinez.reynoso@gmail.com
+Mot de Passe : analeonathyhi
+
+---------------
+Module-Vidéos :
+---------------
+En cliquant sur : "Vidéos"     (menu de la page d'accueil)
+
+Pour pouvoir ajouter ou supprimer une vidéo vous devez vous connecter
+avec le compte du propriétaire de la boutique:
+
+ 
+E-Mail Address 	:		propietaire@gmail.com
+Password       	:		1234
+
+VIDEO  			:		http://www.youtube.com/watch?v=aHl3dlRzPhg
+IMAGE			:		http://www.galeriebeauchamp.com/blog/wp-content/uploads/2012/01/verniBeaupre.jpg
